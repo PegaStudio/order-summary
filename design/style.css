@@ -1,0 +1,110 @@
+
+body{
+    font-family: 'Red Hat Display', sans-serif;
+    font-weight: 500;
+    background-color: hsl(225, 100%, 94%);
+    background-image: url(images/pattern-background-desktop.svg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.text-and-buttons{
+    padding: 15px;
+    text-align: center;
+}
+
+.card{
+    background-color: white; 
+    width: 375px;
+    border-radius: 10px;
+    box-shadow: 0px 10px 30px -10px hsl(224, 23%, 55%);
+}
+
+.image-container{
+    width: 375px;
+    border-radius: 10px 10px 0 0;
+}
+
+.annual-plan{
+    background-color: hsl(225, 100%, 98%);
+    border-radius: 10px;
+    margin:15px;
+    padding: 15px; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.annual-fee{
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-items: left;
+    text-align: left;
+    padding: 0 0 0 1em;
+}
+
+
+.proceed{
+    display: inline-block;
+    background-color: hsl(245, 75%, 52%);
+    color: white;
+    border: 9px;
+    padding: 10px 60px;
+    border-radius: 10px;
+    font-weight: 700;
+    box-shadow: 0px 10px 10px 8px hsl(225, 100%, 94%);
+}
+
+.cancel{
+    border: none;
+    background-color: transparent;
+    font-weight: 700;
+    color: hsl(224, 23%, 55%);
+    font-size: 12px;
+    padding:30px 0 15px;
+}
+
+.link{
+    text-align: right;
+}
+
+.pointer:hover{
+    cursor: pointer;  
+}
+
+.cancel:hover{
+    color: black;
+}
+
+.proceed:hover{
+    background-color:hsl(251, 67%, 62%);
+}
+
+.link:hover{
+    color: hsl(251, 67%, 62%);
+}
+
+.annual-fee-plan{
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+p{
+    font-size: 16px;
+    color: hsl(224, 23%, 55%);
+}
+
+h2{
+    font-weight: 900;
+    text-align: center;
+}
+
+h4{
+    font-weight: 700;
+}
